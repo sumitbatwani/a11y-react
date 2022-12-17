@@ -1,21 +1,19 @@
 import './App.css';
+import { Card } from './components/Card';
+import { Radio } from './components/Radio';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Web Accessible React Components</h1>
+      <Card width="300px" height="200px">
+        <Radio
+          id="radio-0"
+          label="Radio"
+          value="Radio"
+          name="radio-sample"
+        />
+      </Card>
     </div>
   );
 }

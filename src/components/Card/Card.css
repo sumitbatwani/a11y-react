@@ -1,0 +1,8 @@
+.Card {
+    padding: 8px;
+    border-radius: 12px;
+    background-color: #fafafa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
